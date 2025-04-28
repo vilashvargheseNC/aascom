@@ -30,6 +30,18 @@
   background-color: var(--light-color);
 }
 
+.accordion.dark details[open] summary {
+  background-color: rgb(60, 74, 107);
+  color: #fff;
+}
+
+.accordion.dark details summary:focus,
+.accordion.dark details summary:hover {
+  background-color: rgb(60, 74, 107);
+  color: #fff;
+}
+
+
 .accordion details summary::-webkit-details-marker {
   display: none;
 }
