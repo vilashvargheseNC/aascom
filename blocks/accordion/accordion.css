@@ -21,6 +21,11 @@
   transition: background-color 0.2s;
 }
 
+.accordion.dark details summary {
+  background-color: rgb(60, 74, 107);
+  color: #fff;
+}
+
 .accordion details[open] summary {
   background-color: var(--light-color);
 }
@@ -28,17 +33,6 @@
 .accordion details summary:focus,
 .accordion details summary:hover {
   background-color: var(--light-color);
-}
-
-.accordion.dark details[open] summary {
-  background-color: rgb(60, 74, 107);
-  color: #fff;
-}
-
-.accordion.dark details summary:focus,
-.accordion.dark details summary:hover {
-  background-color: rgb(60, 74, 107);
-  color: #fff;
 }
 
 
