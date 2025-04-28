@@ -82,6 +82,10 @@ body {
   line-height: 1.6;
 }
 
+main{
+  padding-top: 69px;
+}
+
 body.appear {
   display: block;
 }
