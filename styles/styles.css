@@ -262,3 +262,74 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
+
+.section.hcp-infosection {
+  color: #170b95;
+  font-weight: bold;
+  margin-left: 224px;
+  margin-right: 224px;
+  text-align: center;
+  border-top: 1px solid rgba(37, 84, 195, 0.2);
+  border-bottom: 1px solid rgba(37, 84, 195, 0.2);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.section.alzheimer-infosection {
+  background-color: #e5e2ff99;
+  text-align: center;
+  padding: 20px;
+}
+
+.section.alzheimer-infosection .default-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section.alzheimer-infosection h2 {
+  margin-bottom: 16px;
+}
+
+.section.alzheimer-infosection .button-container {
+  margin-top: 16px;
+}
+
+.section.dataalzheimer-infosection {
+  text-align: center;
+}
+
+.section.dataalzheimer-infosection h2 {
+  color: #170b95;
+}
+
+.dataalzheimer-clocksection .icon {
+  display: inline-flex;
+  width: 80px;
+  height: 80px;
+  margin-right: 15px; 
+  align-items: center;
+  justify-content: center;
+}
+
+.dataalzheimer-clocksection .icon img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+.dataalzheimer-clocksection .default-content-wrapper p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: bold; 
+  margin-left: 124px;
+  margin-right: 124px; 
+  border-top: 1px solid rgba(37, 84, 195, 0.2); 
+  border-bottom: 1px solid rgba(37, 84, 195, 0.2); 
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+}
