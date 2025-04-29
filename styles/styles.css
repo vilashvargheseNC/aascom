@@ -274,7 +274,6 @@ main .section.highlight {
 .section.hero-container {
   display: flex;
   min-height: 448px;
-  background: var(--hero-container-bgcolor, #0665a3);
   color: var(--hero-container-textcolor, #fff);
 
   &.dark-blue {
