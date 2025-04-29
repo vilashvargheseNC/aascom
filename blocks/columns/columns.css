@@ -214,6 +214,39 @@
   margin-top: 0;
 }
 
+.default-content-wrapper h2#empowering-caregivers-an-easy-to-use-tool-for-recognizing-agitation-in-alzheimers-dementia1 {
+  text-align: center;
+  color: #170b95;
+}
+
+.section.about-care-giver-section.columns-container .icon-container.div-2 {
+  text-align: left;
+}
+
+.section.about-care-giver-section.columns-container .icon-container.div-2 p:nth-of-type(2) {
+  outline: 4px dashed #ac89cd;
+  outline-offset: -2px;
+  border-radius: 10px;
+  padding: 1rem; /* Optional: Add padding for better spacing inside the border */
+}
+
+.section.about-care-giver-section.columns-container .columns-img-col.agitation-description.div-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section.about-care-giver-section.columns-container .columns-img-col.agitation-description.div-3 img {
+  width: 320px;
+  height: 320px;
+  object-fit: cover; /* Ensures the image fits nicely within the dimensions */
+}
+
+.section.about-care-giver-section.columns-container {
+  margin-left: 223px;
+  margin-right: 223px;
+} 
+
 
 @media (width >=900px) {
   .columns>div {
