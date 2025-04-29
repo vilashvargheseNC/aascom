@@ -384,6 +384,27 @@
   display: inline-block; /* Ensure the button respects the centering */
 }
 
+.section.why-aasc-section.bg-grey.columns-container .default-content-wrapper h2#why-the-aasc1 {
+  text-align: center; /* Center-align the text */
+  color: #170b95; /* Apply the previously used color */
+  font-weight: normal; /* Optional: Adjust font weight */
+}
+
+/* Left-align all text inside the columns-wrapper */
+.section.why-aasc-section.bg-grey.columns-container .columns-wrapper {
+  text-align: left; /* Align all text to the left */
+}
+
+/* Ensure specific alignment for header-container and its child elements */
+.section.why-aasc-section.bg-grey.columns-container .header-container .icon-container.div-2,
+.section.why-aasc-section.bg-grey.columns-container .header-container .agitation-description.div-3 {
+  text-align: left; /* Align text to the left */
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: column; /* Stack content vertically */
+  align-items: flex-start; /* Align content at the top and left */
+  gap: 16px; /* Add spacing between elements */
+}
+
 
 
 @media (width >=900px) {
