@@ -405,6 +405,58 @@
   gap: 16px; /* Add spacing between elements */
 }
 
+/* Center-align and apply color to the h2 */
+.section.how-to-use-aasc-section.columns-container .default-content-wrapper h2#how-to-use-the-aasc1 {
+  text-align: center; /* Center-align the text */
+  color: #170b95; /* Apply the previously used color */
+  font-weight: normal; /* Optional: Adjust font weight */
+}
+
+/* Initialize counter for numbering */
+.section.how-to-use-aasc-section.columns-container .header-container {
+  counter-reset: column-counter; /* Reset the counter only once for the parent container */
+}
+
+/* Style for numbered columns */
+.section.how-to-use-aasc-section.columns-container .header-container > div::before {
+  counter-increment: column-counter; /* Increment the counter for each child div */
+  content: counter(column-counter); /* Display the counter */
+  width: 43px;
+  height: 43px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #fff;
+  background-color: #0665a3;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px; /* Add spacing between the number and the text */
+}
+
+/* Align the number and h3 inline */
+.section.how-to-use-aasc-section.columns-container .header-container > div {
+  display: flex;
+  flex-direction: column; /* Stack content vertically */
+  align-items: flex-start; /* Align content to the left */
+  gap: 8px; /* Add spacing between the number, h3, and ul */
+  text-align: left; /* Align text to the left */
+}
+
+/* Ensure h3 and ul are separated */
+.section.how-to-use-aasc-section.columns-container .header-container > div > h3 {
+  display: flex;
+  align-items: center; /* Align the number and h3 inline */
+  gap: 16px; /* Add spacing between the number and the text */
+  margin: 0; /* Remove default margins */
+}
+
+.section.how-to-use-aasc-section.columns-container .header-container > div > ul {
+  margin-top: 8px; /* Add spacing between the h3 and the ul */
+}
+
 
 
 @media (width >=900px) {
