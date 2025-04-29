@@ -345,6 +345,44 @@
   height: auto;
 }
 
+/* Style for the section */
+.section.what-is-aasc-section.columns-container {
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-top: 40px; /* Add top margin */
+}
+
+/* Center-align and apply color to the h2 and h4 */
+.section.what-is-aasc-section.columns-container .default-content-wrapper h2#what-is-the-aasc1,
+.section.what-is-aasc-section.columns-container .default-content-wrapper h4#the-aasc-is-comprised-of-an-introduction-followed-by-two-main-questions-that-screen-for-the-presence-and-impact-of-agitation-behaviors-in-patients-with-alzheimers-dementia {
+  text-align: center; /* Center-align the text */
+  color: #170b95; /* Apply the same color as previously used */
+  font-weight: normal; /* Optional: Adjust font weight */
+}
+
+.section.what-is-aasc-section.columns-container .default-content-wrapper h4#the-aasc-is-comprised-of-an-introduction-followed-by-two-main-questions-that-screen-for-the-presence-and-impact-of-agitation-behaviors-in-patients-with-alzheimers-dementia {
+  color: #000; /* Set the color to black */
+}
+
+.section.what-is-aasc-section.columns-container .header-container .icon-container.div-2,
+.section.what-is-aasc-section.columns-container .header-container .agitation-description.div-3,
+.section.what-is-aasc-section.columns-container .header-container .icon-details-container.div-4 {
+  display: flex; /* Use flexbox for alignment */
+  flex-direction: column; /* Stack content vertically */
+  align-items: flex-start; /* Align content at the top and left */
+  justify-content: flex-start; /* Ensure content is aligned at the top */
+  text-align: left; /* Align text to the left */
+  gap: 16px; /* Add spacing between elements */
+}
+
+/* Center-align the button */
+.section.what-is-aasc-section.columns-container .button-container {
+  text-align: center; /* Center-align the content inside the container */
+}
+
+.section.what-is-aasc-section.columns-container .button-container .button {
+  display: inline-block; /* Ensure the button respects the centering */
+}
 
 
 
