@@ -428,25 +428,6 @@
   counter-reset: column-counter; /* Reset the counter only once for the parent container */
 }
 
-/* Style for numbered columns */
-.section.how-to-use-aasc-section.columns-container .header-container > div::before {
-  counter-increment: column-counter; /* Increment the counter for each child div */
-  content: counter(column-counter); /* Display the counter */
-  width: 43px;
-  height: 43px;
-  flex-shrink: 0;
-  text-align: center;
-  font-size: 1.5rem;
-  line-height: 2.5rem;
-  color: #fff;
-  background-color: #0665a3;
-  border-radius: 50%;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 16px; /* Add spacing between the number and the text */
-}
-
 /* Align the number and h3 inline */
 .section.how-to-use-aasc-section.columns-container .header-container > div {
   display: flex;
