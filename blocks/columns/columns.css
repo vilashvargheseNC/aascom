@@ -248,6 +248,106 @@
 } 
 
 
+.section.aasc-tool-section.bg-purple.columns-container h2 {
+  text-align: center;
+  color: #170b95;
+  font-weight: normal !important;
+  font-size: 2rem;
+}
+
+/* Initialize counter for numbering */
+.section.aasc-tool-section.bg-purple.columns-container .header-container {
+  counter-reset: column-counter;
+}
+
+/* Style for numbered columns */
+.section.aasc-tool-section.bg-purple.columns-container .header-container > div::before {
+  counter-increment: column-counter;
+  content: counter(column-counter);
+  width: 43px;
+  height: 43px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #fff;
+  background-color: #0665a3;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px; /* Add spacing between the number and the text */
+}
+
+/* Align the text next to the numbers */
+.section.aasc-tool-section.bg-purple.columns-container .header-container > div {
+  display: flex;
+  align-items: flex-start;
+  font-size: 1.25rem; /* Adjust font size for text */
+  text-align: left;
+}
+.section.aasc-tool-section.bg-purple.columns-container {
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-top: 80px;
+  background-color: #e5e2ff99;
+}
+
+.section.aasc-tool-section.bg-purple.columns-container .header-container .icon-container.div-2 p,
+.section.aasc-tool-section.bg-purple.columns-container .header-container .agitation-description.div-3 p,
+.section.aasc-tool-section.bg-purple.columns-container .header-container .icon-details-container.div-4 p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.section.aasc-tool-section.bg-purple.columns-container .button-container {
+  text-align: center; /* Center the content inside the container */
+}
+
+.section.aasc-tool-section.bg-purple.columns-container .button-container .button {
+  display: inline-block; /* Ensure the button respects the centering */
+}
+
+/* Style for the second <p> tag */
+.section.aasc-tool-section.bg-purple.columns-container .default-content-wrapper > p:nth-child(2) {
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center-align vertically */
+  justify-content: center; /* Center-align horizontally */
+  text-align: center; /* Center-align the text */
+  padding-top: 0.9375rem;
+  padding-bottom: 0.9375rem;
+  border-top: 1px solid rgba(37, 84, 195, 0.2);
+  border-bottom: 1px solid rgba(37, 84, 195, 0.2);
+  margin-top: 0; /* Optional: Remove any default margin */
+  margin-bottom: 0; /* Optional: Remove any default margin */
+}
+
+.aasc-tool-section .default-content-wrapper > p:nth-child(2) {
+  display: flex;
+  align-items: center; /* Adjust vertical alignment as needed */
+}
+
+/* Style for the icon inside the second <p> tag */
+.aasc-tool-section .default-content-wrapper > p:nth-child(2) .icon.icon-clock {
+  display: inline-flex;
+  width: 80px;
+  height: 80px;
+  align-items: center; /* Center-align icon vertically */
+  justify-content: center; /* Center-align icon horizontally */
+  margin-right: 10px; /* Adjust spacing between the icon and text */
+}
+
+/* Ensure the image inside the icon scales properly */
+.aasc-tool-section .default-content-wrapper > p:nth-child(2) .icon.icon-clock img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+
+
+
 @media (width >=900px) {
   .columns>div {
     flex-direction: unset;
