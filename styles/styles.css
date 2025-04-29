@@ -312,6 +312,8 @@ main .section.highlight {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .section.alzheimer-infosection h2 {

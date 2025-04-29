@@ -245,7 +245,13 @@
 .section.about-care-giver-section.columns-container {
   margin-left: 223px;
   margin-right: 223px;
+  margin-top: 70px;
 } 
+
+/* Add padding to the specific <p> tag */
+.section.aasc-tool-section.bg-purple.columns-container .default-content-wrapper p:last-of-type {
+  padding-bottom: 60px; /* Add bottom padding */
+}
 
 
 .section.aasc-tool-section.bg-purple.columns-container h2 {
@@ -253,6 +259,7 @@
   color: #170b95;
   font-weight: normal !important;
   font-size: 2rem;
+  padding-top: 70px;
 }
 
 /* Initialize counter for numbering */
@@ -358,6 +365,7 @@
   text-align: center; /* Center-align the text */
   color: #170b95; /* Apply the same color as previously used */
   font-weight: normal; /* Optional: Adjust font weight */
+  padding-top: 30px;
 }
 
 .section.what-is-aasc-section.columns-container .default-content-wrapper h4#the-aasc-is-comprised-of-an-introduction-followed-by-two-main-questions-that-screen-for-the-presence-and-impact-of-agitation-behaviors-in-patients-with-alzheimers-dementia {
@@ -388,6 +396,7 @@
   text-align: center; /* Center-align the text */
   color: #170b95; /* Apply the previously used color */
   font-weight: normal; /* Optional: Adjust font weight */
+  padding-top: 70px;
 }
 
 /* Left-align all text inside the columns-wrapper */
@@ -410,6 +419,8 @@
   text-align: center; /* Center-align the text */
   color: #170b95; /* Apply the previously used color */
   font-weight: normal; /* Optional: Adjust font weight */
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* Initialize counter for numbering */
